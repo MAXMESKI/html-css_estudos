@@ -1,0 +1,19 @@
+body{
+    margin: 50px 50px
+}
+
+.red {
+    color: red;
+}
+
+.error {
+    font-style: italic;
+    font-weight: bold;
+}
+.zoom:hover {
+    transform: scale(1.02); 
+}
+
+.zoom {
+    transition: transform .2s;
+}
